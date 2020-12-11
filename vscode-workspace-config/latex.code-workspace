@@ -1,0 +1,114 @@
+{
+	"folders": [
+		{
+			"path": ""
+		}
+	],
+	"settings": {
+		"latex-workshop.latex.tools": [
+			{
+				"name": "xelatex",
+				"command": "xelatex",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"-pdf",
+					"%DOCFILE%"
+				]
+			},
+			{
+				"name": "pdflatex",
+				"command": "pdflatex",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"%DOCFILE%"
+				]
+			},
+			{
+				"name": "bibtex",
+				"command": "bibtex",
+				"args": [
+					"%DOCFILE%"
+				]
+			}
+		],
+		"latex-workshop.latex.recipes": [
+			{
+				"name": "xelatex",
+				"tools": [
+					"xelatex"
+				]
+			},
+			{
+				"name": "xe -> bib -> xe -> xe",
+				"tools": [
+					"xelatex",
+					"bibtex",
+					"xelatex",
+					"xelatex"
+				]
+			},
+			{
+				"name": "pdflatex",
+				"tools": [
+					"pdflatex"
+				]
+			}
+		],
+		"latex-workshop.view.pdf.external.synctex.args": [
+			"-forward-search",
+			"%TEX%",
+			"%LINE%",
+			"%PDF%"
+		],
+		"latex-workshop.view.pdf.external.synctex.command": "E:\\Program Files\\Tracker Software\\PDF Viewer\\PDFXCview.exe",
+		"latex-workshop.view.pdf.external.viewer.args": [
+			"%PDF%"
+		],
+		"latex-workshop.view.pdf.external.viewer.command": "E:\\Program Files\\Tracker Software\\PDF Viewer\\PDFXCview.exe",
+		"latex-workshop.view.pdf.viewer": "external",
+		"latex-workshop.latex.clean.fileTypes": [
+			"*.aux",
+			"*.bbl",
+			"*.blg",
+			"*.idx",
+			"*.ind",
+			"*.lof",
+			"*.lot",
+			"*.out",
+			"*.toc",
+			"*.acn",
+			"*.acr",
+			"*.alg",
+			"*.glg",
+			"*.glo",
+			"*.gls",
+			"*.fls",
+			"*.log",
+			"*.fdb_latexmk",
+			"*.snm",
+			"*.synctex(busy)",
+			"*.synctex.gz(busy)",
+			"*.nav"
+		],
+		"latex-workshop.latex.autoClean.run": "onBuilt",
+		"latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+		"latex-workshop.latex.autoBuild.run": "never",
+		"ltex.en-US.dictionary": [
+			"Niubility",
+			"Zhihu"
+		],
+		"ltex.environments.ignore": [
+			"lstlisting",
+			"verbatim"
+		],
+		"ltex.commands.ignore": [
+			"\\documentclass[]{}",
+			"\\renewcommand*{}[]{}"
+		],
+		"ltex.language": "zh-CN"
+	}
+}

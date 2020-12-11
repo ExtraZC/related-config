@@ -1,0 +1,10 @@
+{
+	"folders": [],
+	"settings": 
+	{
+		"python.jediEnabled": true,
+		"python.autoComplete.addBrackets": true,
+		"python.defaultInterpreterPath": "D:\\Users\\OneDrive\\Program\\Tool\\pyenv\\mathEnv3\\Scripts\\python3.exe",
+		"python.languageServer": "Microsoft"
+	}
+}

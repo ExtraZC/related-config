@@ -1,0 +1,20 @@
+{
+	"folders": [],
+	"settings": 
+	{
+        "lammps.AutoComplete.Setting": "Extensive",
+        // Control the length of the displayed description in the hover popup.
+        //  - Short: Hover shows only a short description of the command
+        //  - Complete: Hover shows the full description of the command
+        "lammps.Hover.Detail": "Short",
+
+        // Display command information in a popup when hovering the mouse over a recognised command or syntax.
+        "lammps.Hover.Enabled": "true",
+
+        // Display command examples in the hover popup.
+        "lammps.Hover.Examples": "true",
+
+        // Display command restrictions in the hover popup.
+        "lammps.Hover.Restrictions": "true"
+	}
+}

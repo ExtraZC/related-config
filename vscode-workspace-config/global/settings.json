@@ -1,0 +1,222 @@
+{
+  "sync.gist": "",
+  "sync.autoUpload": false,
+  "sync.autoDownload": false,
+  "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "telemetry.enableTelemetry": false,
+  "workbench.settings.useSplitJSON": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "editor.cursorWidth": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run"
+  },
+  "todohighlight.isEnable": true,
+  "code-runner.runInTerminal": false,
+  "code-runner.ignoreSelection": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "prettier.requireConfig": true,
+  "http.proxyStrictSSL": false,
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "1033",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\Users\\bin\\im-select.exe",
+  "vim.autoSwitchInputMethod.switchIMCmd": "D:\\Users\\bin\\im-select.exe {im}",
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.renderWhitespace": "all",
+  "files.exclude": {
+    "**/.prettierrc": true
+  },
+  "workbench.list.openMode": "doubleClick",
+  
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "todo-tree.tree.showScanModeButton": false,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.tex"
+  ],
+  "todo-tree.general.tags": [
+    "DONE",
+    "TODO",
+    "HACK",
+    "FIXME",
+    "BUG"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "white",
+    "background": "yellow",
+    "icon": "check",
+    "rulerColour": "yellow",
+    "type": "tag",
+    "iconColour": "yellow"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "icon": "beaker",
+      "rulerColour": "red",
+      "iconColour": "red",
+      "background": "red"
+    },
+    "TODO": {
+      "background": "yellow",
+      "rulerColour": "yellow",
+      "iconColour": "yellow"
+    },
+    "BUG": {
+      "icon": "bug"
+    },
+    "DONE": {
+      "background": "green",
+      "icon": "issue-closed",
+      "rulerColour": "green",
+      "iconColour": "green"
+    }
+  },
+  "editor.matchBrackets": "never",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": false,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+  "todo-tree.highlights.enabled": false,
+  "todo-tree.regex.regex": "((%|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "todohighlight.keywords": [
+    {
+      "text": "DONE:",
+      "color": "#4BB5C1",
+      "backgroundColor": "#B0CC99",
+      "overviewRulerColor": "#B0CC99"
+    }
+  ],
+  "projectManager.git.baseFolders": [
+    "D:\\Users\\Github"
+  ],
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#86b0ed",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "better-comments.highlightPlainText": true,
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.useBackslash": true,
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+  "projectManager.any.baseFolders": [
+    "D:\\Users\\Git"
+  ],
+  "projectManager.any.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".git",
+    ".idea",
+    ".vscode"
+  ],
+  "projectManager.any.maxDepthRecursion": 1
+  // "workbench.colorCustomizations": {
+  //   "editorBracketMatch.border": "#0000",
+  //   "editorBracketMatch.background": "#000"
+  // }
+}
