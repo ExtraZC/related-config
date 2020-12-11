@@ -1,0 +1,15 @@
+[submodule ".vim/bundle"]
+	path = .vim/bundle
+	ignore = dirty
+[submodule ".vim/bundle/command-t"]
+	path = .vim/bundle/command-t
+	ignore = dirty
+[submodule ".vim/bundle/newL9"]
+	path = .vim/bundle/newL9
+	ignore = dirty
+[submodule ".vim/bundle/sparkup"]
+	path = .vim/bundle/sparkup
+	ignore = dirty
+[submodule ".vim/bundle/L9"]
+	path = .vim/bundle/L9
+	ignore = dirty
