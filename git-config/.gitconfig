@@ -1,0 +1,49 @@
+[user]
+	name = inputname
+	email = inputmail
+[core]
+	autocrlf = false
+	safecrlf = true
+[color]
+	ui = true
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	dica = diff --cached
+	dihe = diff HEAD --
+	rehe = reset --hard HEAD^
+	reid = reset --hard
+	ci = commit
+	br = branch
+	unstage = reset HEAD
+	st = status
+	di = diff
+	ro = remote
+	sw = switch
+	co = checkout
+	mg = merge
+	line = log --oneline
+	cp = cherry-pick
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:10800
+[https "https://github.com"]
+	proxy = socks5://127.0.0.1:10800
+[gui]
+	encoding = utf-8
+[diff]
+	tool = bc4
+[difftool]
+	prompt = false
+[difftool "bc4"]
+	cmd = "\"E:/Program Files/Beyond Compare 4/BCompare.exe\" \"$LOCAL\" \"$REMOTE\""
+[merge]
+	tool = bc4
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "bc4"]
+	trustExitCode = true
+	cmd = "\"E:/Program Files/Beyond Compare 4/BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
+[http]
+	proxy = socks5://127.0.0.1:10800
+[https]
+	proxy = socks5://127.0.0.1:10800

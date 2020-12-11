@@ -1,0 +1,8 @@
+ThemeFile=dracula
+Transparency=low
+CursorType=block
+FontSmoothing=partial
+Font=Hack
+FontHeight=11
+Columns=90
+Rows=29
