@@ -3,5 +3,5 @@
 Related config for software and environment.
 
 - **git-config**
-- **vim-config**
+- ~~**vim-config**~~
 - **vscode-workspace-config**
